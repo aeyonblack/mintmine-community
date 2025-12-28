@@ -42,30 +42,30 @@ We're building in public. Here's what's on our radar:
 
 ### 🔨 In Progress
 
-| Feature | Description |
-|---------|-------------|
+| Feature            | Description                          |
+| ------------------ | ------------------------------------ |
 | Ingestion Pipeline | Data collection and filtering system |
-| AI Clustering | Smart grouping of similar complaints |
+| AI Clustering      | Smart grouping of similar complaints |
 
 ### 📋 Up Next
 
-| Feature | Description |
-|---------|-------------|
-| Reddit | Scan subreddits for user complaints |
+| Feature | Description                         |
+| ------- | ----------------------------------- |
+| Reddit  | Scan subreddits for user complaints |
 | YouTube | Analyze video comments for feedback |
 
 ### 🔮 Planned
 
-| Category | Features |
-|----------|----------|
+| Category         | Features                                                            |
+| ---------------- | ------------------------------------------------------------------- |
 | **Data Sources** | Hacker News, App Store, Google Play, Chrome Web Store, Product Hunt |
-| **Integrations** | Jira, Linear, Slack, GitHub Issues |
-| **Features** | Custom keyword alerts, Team workspaces, API access |
+| **Integrations** | Jira, Linear, Slack, GitHub Issues                                  |
+| **Features**     | Custom keyword alerts, Team workspaces, API access                  |
 
 ### ✅ Shipped
 
-| Feature | Status |
-|---------|--------|
+| Feature                 | Status  |
+| ----------------------- | ------- |
 | Waitlist & early access | ✅ Live |
 
 ---
@@ -100,12 +100,12 @@ Have thoughts that don't fit a feature request or bug report? Start a [Discussio
 
 ## ⏱️ What to Expect
 
-| | |
-|---|---|
-| 👀 **We read everything** | Every issue and discussion gets reviewed |
-| 💬 **We'll respond** | Usually within a few days |
-| 📊 **We prioritize by impact** | Popular requests move up the list |
-| 🚀 **We ship regularly** | Check the roadmap for updates |
+|                                |                                          |
+| ------------------------------ | ---------------------------------------- |
+| 👀 **We read everything**      | Every issue and discussion gets reviewed |
+| 💬 **We'll respond**           | Usually within a few days                |
+| 📊 **We prioritize by impact** | Popular requests move up the list        |
+| 🚀 **We ship regularly**       | Check the roadmap for updates            |
 
 ---
 
@@ -113,21 +113,21 @@ Have thoughts that don't fit a feature request or bug report? Start a [Discussio
 
 When opening an issue, you'll be prompted to choose:
 
-| Template | Use it for |
-|----------|------------|
-| 💡 **Feature Request** | New functionality you'd like to see |
-| 🐛 **Bug Report** | Something isn't working as expected |
-| 📡 **Data Source Request** | Suggest a new platform to scrape |
+| Template                   | Use it for                          |
+| -------------------------- | ----------------------------------- |
+| 💡 **Feature Request**     | New functionality you'd like to see |
+| 🐛 **Bug Report**          | Something isn't working as expected |
+| 📡 **Data Source Request** | Suggest a new platform to scrape    |
 
 ---
 
 ## 🔗 Stay Connected
 
-| | |
-|---|---|
-| 🌐 **Website** | [mintmine.dev](https://mintmine.dev) |
-| 🐦 **Twitter/X** | [@tanya_masvita](https://x.com/tanya_masvita) |
-| 📧 **Email** | hi@mintmine.dev |
+|                |                                               |
+| -------------- | --------------------------------------------- |
+| 🌐 **Website** | [mintmine.dev](https://mintmine.dev)          |
+| 🖇️ **X.com**   | [@tanya_masvita](https://x.com/tanya_masvita) |
+| 📧 **Email**   | hi@mintmine.dev                               |
 
 ---
 
