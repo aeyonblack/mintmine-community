@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mintmine/community/main/assets/logo.svg" alt="MintMine" width="120" />
+  <img src="./assets/logo.svg" alt="MintMine" width="120" />
 </p>
 
 <h1 align="center">MintMine Community</h1>
