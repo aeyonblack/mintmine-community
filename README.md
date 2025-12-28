@@ -1,38 +1,59 @@
-<p align="center">
-  <img src="./assets/logo.svg" alt="MintMine" width="120" />
-</p>
+<div align="center">
+  <img src="./assets/logo.svg" alt="MintMine Logo" width="120" />
+  <h1>MintMine Community</h1>
+  <p><strong>The IDE for Market Research.</strong></p>
 
-<h1 align="center">MintMine Community</h1>
+  <p>
+    <a href="https://mintmine.dev">
+      <img src="https://img.shields.io/website?url=https%3A%2F%2Fmintmine.dev&up_message=online&up_color=00DC82&label=MintMine" alt="Website Status" />
+    </a>
+    <a href="https://github.com/aeyonblack/mintmine-community/stargazers">
+      <img src="https://img.shields.io/github/stars/aeyonblack/mintmine-community?style=social" alt="GitHub Stars" />
+    </a>
+    <a href="https://x.com/tanya_masvita">
+      <img src="https://img.shields.io/twitter/follow/tanya_masvita?style=social" alt="Twitter Follow" />
+    </a>
+  </p>
 
-<p align="center">
-  <strong>Feature requests, bug reports, and discussions for MintMine.</strong>
-</p>
-
-<p align="center">
-  <a href="https://mintmine.dev">Website</a> •
-  <a href="#-roadmap">Roadmap</a> •
-  <a href="#-contributing">Contributing</a> •
-  <a href="https://x.com/tanya_masvita">Twitter/X</a>
-</p>
+  <p>
+    <a href="https://mintmine.dev">Website</a> •
+    <a href="#-roadmap">Roadmap</a> •
+    <a href="https://github.com/mintmine/community/discussions">Discussions</a> •
+    <a href="https://x.com/tanya_masvita">Twitter/X</a>
+  </p>
+</div>
 
 ---
 
 ## 🧐 What is MintMine?
 
-MintMine is the **IDE for Market Research**. We scan Reddit, GitHub, YouTube, and App Stores to find the bugs, pricing complaints, and missing features your competitors are ignoring — so you can build what users actually want.
+MintMine is a market research tool built for **Engineers**.
+
+We help builders identify user pain points and validate product ideas/features by scanning Reddit, GitHub, YouTube, and App Store reviews. Our AI filters out 90% of the noise (spam, generic praise) to surface actionable Opportunities—bugs, pricing complaints, missing features, etc., so you can not only build what users actually want but what they are willing to pay for.
 
 ---
 
 ## 📌 About This Repo
 
-This is the public space for the MintMine community. Here you can:
+This repository is the official "Town Hall" for the MintMine community. This is where you can collaborate on the product roadmap.
 
-- 💡 **Request features** — Tell us what you'd love to see
-- 🐛 **Report bugs** — Help us squash issues
-- 📍 **Track progress** — See what we're working on
-- 💬 **Join discussions** — Share ideas and feedback
+- 💡 **[Ideas & Feature Requests](https://github.com/aeyonblack/mintmine-community/discussions/categories/ideas)**: Vote on what we build next.
+- 🐛 **[Bug Reports](../../issues/new?template=bug_report.md)**: Tell us what's broken.
+- 💬 **[General Chat](https://github.com/aeyonblack/mintmine-community/discussions/categories/general)**: Ask questions or share your research wins.
+- 🗺️ **[Roadmap](#-roadmap)**: See what's shipping soon.
 
-> **Note:** MintMine's source code is not public. This repo is for community feedback only.
+---
+
+## ⚡ The Tech Stack
+
+MintMine uses a hybrid architecture to balance performance with AI capabilities.
+
+| Layer | Technology | Why? |
+| :--- | :--- | :--- |
+| **Frontend** | Vue 3 + Tailwind | Performance and tight styling control. |
+| **API** | ASP.NET Core 8 | Type safety and raw speed for business logic. |
+| **Worker** | Python + FastAPI | Leveraging `all-MiniLM-L6-v2` for local embeddings. |
+| **Database** | Supabase (Postgres) | `pgvector` for semantic search. |
 
 ---
 
@@ -60,7 +81,7 @@ We're building in public. Here's what's on our radar:
 | ---------------- | ------------------------------------------------------------------- |
 | **Data Sources** | Hacker News, App Store, Google Play, Chrome Web Store, Product Hunt |
 | **Integrations** | Jira, Linear, Slack, GitHub Issues                                  |
-| **Features**     | Custom keyword alerts, Team workspaces, API access                  |
+| **Features** | Custom keyword alerts, Team workspaces, API access                  |
 
 ### ✅ Shipped
 
@@ -74,50 +95,13 @@ _Have a feature idea? [Open a feature request →](../../issues/new?template=fea
 
 ---
 
-## 🤝 Contributing
+## 🤝 How to Contribute
 
-### 💡 Submitting a Feature Request
+Here's how you can shape the product and contribute:
 
-1. **Search first** — Check if someone already requested it
-2. **Be specific** — Describe the problem you're trying to solve
-3. **Keep it focused** — One feature per request
-
-[→ Request a Feature](../../issues/new?template=feature_request.md)
-
-### 🐛 Reporting a Bug
-
-1. **Include steps to reproduce** — Help us see what you see
-2. **Share context** — Browser, OS, what you expected vs. what happened
-3. **Screenshots help** — A picture is worth a thousand words
-
-[→ Report a Bug](../../issues/new?template=bug_report.md)
-
-### 💬 General Feedback
-
-Have thoughts that don't fit a feature request or bug report? Start a [Discussion](../../discussions).
-
----
-
-## ⏱️ What to Expect
-
-|                                |                                          |
-| ------------------------------ | ---------------------------------------- |
-| 👀 **We read everything**      | Every issue and discussion gets reviewed |
-| 💬 **We'll respond**           | Usually within a few days                |
-| 📊 **We prioritize by impact** | Popular requests move up the list        |
-| 🚀 **We ship regularly**       | Check the roadmap for updates            |
-
----
-
-## 📝 Issue Templates
-
-When opening an issue, you'll be prompted to choose:
-
-| Template                   | Use it for                          |
-| -------------------------- | ----------------------------------- |
-| 💡 **Feature Request**     | New functionality you'd like to see |
-| 🐛 **Bug Report**          | Something isn't working as expected |
-| 📡 **Data Source Request** | Suggest a new platform to scrape    |
+1.  **Star this Repo:** It helps us reach more builders. ⭐
+2.  **Vote on Features:** Go to [Discussions](https://github.com/aeyonblack/mintmine-community/discussions) and upvote the ideas you need most.
+3.  **Report Bugs:** If you're in the Beta, log issues using our [Issue Templates](../../issues/new/choose).
 
 ---
 
@@ -126,11 +110,11 @@ When opening an issue, you'll be prompted to choose:
 |                |                                               |
 | -------------- | --------------------------------------------- |
 | 🌐 **Website** | [mintmine.dev](https://mintmine.dev)          |
-| 🖇️ **X.com**   | [@tanya_masvita](https://x.com/tanya_masvita) |
-| 📧 **Email**   | hi@mintmine.dev                               |
+| 📧 **Email** | hi@mintmine.dev                               |
 
 ---
 
-<p align="center">
-  <sub>Built with 💚 by Tanya Masvita</sub>
-</p>
+<div align="center">
+  <p>Built with 💚 by <a href="https://x.com/tanya_masvita">Tanya Masvita</a></p>
+  <sub>Copyright © 2025 MintMine</sub>
+</div>
